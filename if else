@@ -1,0 +1,8 @@
+month=input("enter the nmonth")
+if month==("jan","march","may","july","august","oct","des"):
+    print("no.of days:3i days")
+elif month=="feb":
+    print("no.of days:28 days")
+else:
+    print("no.of days:30 days")    
+               

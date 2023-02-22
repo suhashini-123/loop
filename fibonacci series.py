@@ -1,0 +1,9 @@
+n=int(input("enter the num"))
+a=0
+b=1
+i=0
+while i<=n:
+    print(i,end=",")
+    a=b
+    b=i
+    i=a+b
